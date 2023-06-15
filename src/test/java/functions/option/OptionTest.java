@@ -7,8 +7,7 @@ import org.junit.jupiter.api.Test;
 import java.util.Optional;
 
 @Slf4j
-public class OptionTest {
-
+class OptionTest {
 
     @Test
     void optionTest(){

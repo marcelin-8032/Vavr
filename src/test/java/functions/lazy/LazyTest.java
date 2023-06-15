@@ -9,7 +9,7 @@ import java.util.Random;
 @Slf4j
 public class LazyTest {
 
-    //Lazy is a memorized functions
+    //Lazy is a memorized function
     @Test
     void testLazy1() {
         Lazy<Integer> lazy = Lazy.of(() -> new Random().nextInt());
